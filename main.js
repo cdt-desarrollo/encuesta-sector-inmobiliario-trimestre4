@@ -1,68 +1,7 @@
-// let companyName = document.getElementById("companyName").value;
-// let staffName = document.getElementById("staffName").value;
-// let email = document.getElementById("email").value;
-// let phone = document.getElementById("phone").value;
-// let q1
-// let q2
-// let q3
-// let q4
-// let q5
-// let q6
-// let q7
-// let q8
-// let q9
-// let q10
-// let q11
-// let q12
-// let q13
-// let q15
-// let q16
-// let q17
+
 var q11 = []
 var q15 = [] 
 var responses = []
-// function getResponses(){
-//   getValuesQ1()
-//   getValuesQ2()
-//   getValuesQ3()
-//   getValuesQ4()
-//   getValuesQ5()
-//   getValuesQ6()
-//   getValuesQ7()
-//   getValuesQ8()
-//   getValuesQ9()
-//   getValuesQ10()
-//   getValuesQ11()
-//   getValuesQ12()
-//   getValuesQ13()
-//   getValuesQ14()
-//   getValuesQ15()
-//   getValuesQ16()
-//   getValuesQ17()
-// }
-// function getValuesQ1(){
-//   q1o1 = document.getElementById("q1o1")
-//   q1o2 = document.getElementById("q1o2")
-//   q1o3 = document.getElementById("q1o3")
-//   for(i = 0; i<=2; i++){
-//     if(i == 0){
-//       if(q1o1.checked == true){
-//         q1 = q1o1.value
-//       }
-//     }
-//     else if(i == 1){
-//       if(q1o2.checked == true){
-//         q1 = q1o2.value
-//       }
-//     }
-//     else if(i == 2){
-//       if(q1o3.checked == true){
-//         q1 = q1o3.value
-//       }
-//     }
-//   }
-//   console.log("Q1: ",q1)
-// }
 function disableInputNumberQuestion2(option){
   if(option.checked == true)
   {
@@ -74,17 +13,6 @@ function disableInputNumberQuestion2(option){
     document.getElementById("q2o1").value = ""
   }
 }
-// function getValuesQ2(){
-//   q2o1 = document.getElementById("q2o1")
-//   q2o2 = document.getElementById("q2o2")
-//   if(q2o2.checked == true){
-//     q2 = q2o2.value
-//   }
-//   else if(q2o2.checked == false){
-//     q2 = q2o1.value
-//   }
-//   console.log("Q2: ",q2)
-// }
 function disableInputNumberQuestion3(option){
   if(option.checked == true)
   {
@@ -96,17 +24,6 @@ function disableInputNumberQuestion3(option){
     document.getElementById("q3o1").value = ""
   }
 }
-// function getValuesQ3(){
-//   q3o1 = document.getElementById("q3o1")
-//   q3o2 = document.getElementById("q3o2")
-//   if(q3o2.checked == true){
-//     q3 = q3o2.value
-//   }
-//   else if(q3o2.checked == false){
-//     q3 = q3o1.value
-//   }
-//   console.log("Q3: ",q3)
-// }
 function disableInputNumberQuestion4(option){
   if(option.checked == true)
   {
@@ -118,365 +35,6 @@ function disableInputNumberQuestion4(option){
     document.getElementById("q4o1").value = ""
   }
 }
-// function getValuesQ4(){
-//   q4o1 = document.getElementById("q4o1")
-//   q4o2 = document.getElementById("q4o2")
-//   if(q4o2.checked == true){
-//     q4 = q4o2.value
-//   }
-//   else if(q4o2.checked == false){
-//     q4 = q4o1.value
-//   }
-//   console.log("Q4: ",q4)
-// }
-// function getValuesQ5(){
-//   q5o1 = document.getElementById("q5o1")
-//   q5o2 = document.getElementById("q5o2")
-//   q5o3 = document.getElementById("q5o3")
-//   q5o4 = document.getElementById("q5o4")
-//   q5o5 = document.getElementById("q5o5")
-//   q5o6 = document.getElementById("q5o6")
-//   q5o7 = document.getElementById("q5o7")
-//   q5o8 = document.getElementById("q5o8")
-//   q5o9 = document.getElementById("q5o9")
-//   q5o10 = document.getElementById("q5o10")
-//   for(i = 0; i<=9; i++){
-//     if(i == 0){
-//       if(q5o1.checked == true){
-//         q5 = q5o1.value
-//       }
-//     }
-//     else if(i == 1){
-//       if(q5o2.checked == true){
-//         q5 = q5o2.value
-//       }
-//     }
-//     else if(i == 2){
-//       if(q5o3.checked == true){
-//         q5 = q5o3.value
-//       }
-//     }
-//     else if(i == 3){
-//       if(q5o4.checked == true){
-//         q5 = q5o4.value
-//       }
-//     }
-//     else if(i == 4){
-//       if(q5o5.checked == true){
-//         q5 = q5o5.value
-//       }
-//     }
-//     else if(i == 5){
-//       if(q5o6.checked == true){
-//         q5 = q5o6.value
-//       }
-//     }
-//     else if(i == 6){
-//       if(q5o7.checked == true){
-//         q5 = q5o7.value
-//       }
-//     }
-//     else if(i == 7){
-//       if(q5o8.checked == true){
-//         q5 = q5o8.value
-//       }
-//     }
-//     else if(i == 8){
-//       if(q5o9.checked == true){
-//         q5 = q5o9.value
-//       }
-//     }
-//     else if(i == 9){
-//       if(q5o10.checked == true){
-//         q5 = q5o10.value
-//       }
-//     }
-//   }
-//   console.log("Q5: ", q5)
-// }
-// function getValuesQ6(){
-//   q6o1 = document.getElementById("q6o1")
-//   q6o2 = document.getElementById("q6o2")
-//   q6o3 = document.getElementById("q6o3")
-//   q6o4 = document.getElementById("q6o4")
-//   q6o5 = document.getElementById("q6o5")
-//   q6o6 = document.getElementById("q6o6")
-//   q6o7 = document.getElementById("q6o7")
-//   q6o8 = document.getElementById("q6o8")
-//   q6o9 = document.getElementById("q6o9")
-//   q6o10 = document.getElementById("q6o10")
-//   for(i = 0; i<=9; i++){
-//     if(i == 0){
-//       if(q6o1.checked == true){
-//         q6 = q6o1.value
-//       }
-//     }
-//     else if(i == 1){
-//       if(q6o2.checked == true){
-//         q6 = q6o2.value
-//       }
-//     }
-//     else if(i == 2){
-//       if(q6o3.checked == true){
-//         q6 = q6o3.value
-//       }
-//     }
-//     else if(i == 3){
-//       if(q6o4.checked == true){
-//         q6 = q6o4.value
-//       }
-//     }
-//     else if(i == 4){
-//       if(q6o5.checked == true){
-//         q6 = q6o5.value
-//       }
-//     }
-//     else if(i == 5){
-//       if(q6o6.checked == true){
-//         q6 = q6o6.value
-//       }
-//     }
-//     else if(i == 6){
-//       if(q6o7.checked == true){
-//         q6 = q6o7.value
-//       }
-//     }
-//     else if(i == 7){
-//       if(q6o8.checked == true){
-//         q6 = q6o8.value
-//       }
-//     }
-//     else if(i == 8){
-//       if(q6o9.checked == true){
-//         q6 = q6o9.value
-//       }
-//     }
-//     else if(i == 9){
-//       if(q6o10.checked == true){
-//         q6 = q6o10.value
-//       }
-//     }
-//   }
-//   console.log("Q6: ", q6)
-// }
-// function getValuesQ7(){
-//   q7o1 = document.getElementById("q7o1")
-//   q7o2 = document.getElementById("q7o2")
-//   q7o3 = document.getElementById("q7o3")
-//   q7o4 = document.getElementById("q7o4")
-//   q7o5 = document.getElementById("q7o5")
-//   q7o6 = document.getElementById("q7o6")
-//   q7o7 = document.getElementById("q7o7")
-//   q7o8 = document.getElementById("q7o8")
-//   q7o9 = document.getElementById("q7o9")
-//   q7o10 = document.getElementById("q7o10")
-//   q7o11 = document.getElementById("q7o11")
-//   for(i = 0; i<=10; i++){
-//     if(i == 0){
-//       if(q7o1.checked == true){
-//         q7 = q7o1.value
-//       }
-//     }
-//     else if(i == 1){
-//       if(q7o2.checked == true){
-//         q7 = q7o2.value
-//       }
-//     }
-//     else if(i == 2){
-//       if(q7o3.checked == true){
-//         q7 = q7o3.value
-//       }
-//     }
-//     else if(i == 3){
-//       if(q7o4.checked == true){
-//         q7 = q7o4.value
-//       }
-//     }
-//     else if(i == 4){
-//       if(q7o5.checked == true){
-//         q7 = q7o5.value
-//       }
-//     }
-//     else if(i == 5){
-//       if(q7o6.checked == true){
-//         q7 = q7o6.value
-//       }
-//     }
-//     else if(i == 6){
-//       if(q7o7.checked == true){
-//         q7 = q7o7.value
-//       }
-//     }
-//     else if(i == 7){
-//       if(q7o8.checked == true){
-//         q7 = q7o8.value
-//       }
-//     }
-//     else if(i == 8){
-//       if(q7o9.checked == true){
-//         q7 = q7o9.value
-//       }
-//     }
-//     else if(i == 9){
-//       if(q7o10.checked == true){
-//         q7 = q7o10.value
-//       }
-//     }
-//     else if(i == 10){
-//       if(q7o11.checked == true){
-//         q7 = q7o11.value
-//       }
-//     }
-//   }
-//   console.log("Q7: ", q7)
-// }
-// function getValuesQ8(){
-//   q8o1 = document.getElementById("q8o1")
-//   q8o2 = document.getElementById("q8o2")
-//   q8o3 = document.getElementById("q8o3")
-//   q8o4 = document.getElementById("q8o4")
-//   q8o5 = document.getElementById("q8o5")
-//   q8o6 = document.getElementById("q8o6")
-//   q8o7 = document.getElementById("q8o7")
-//   q8o8 = document.getElementById("q8o8")
-//   q8o9 = document.getElementById("q8o9")
-//   q8o10 = document.getElementById("q8o10")
-//   q8o11 = document.getElementById("q8o11")
-//   for(i = 0; i<=10; i++){
-//     if(i == 0){
-//       if(q8o1.checked == true){
-//         q8 = q8o1.value
-//       }
-//     }
-//     else if(i == 1){
-//       if(q8o2.checked == true){
-//         q8 = q8o2.value
-//       }
-//     }
-//     else if(i == 2){
-//       if(q8o3.checked == true){
-//         q8 = q8o3.value
-//       }
-//     }
-//     else if(i == 3){
-//       if(q8o4.checked == true){
-//         q8 = q8o4.value
-//       }
-//     }
-//     else if(i == 4){
-//       if(q8o5.checked == true){
-//         q8 = q8o5.value
-//       }
-//     }
-//     else if(i == 5){
-//       if(q8o6.checked == true){
-//         q8 = q8o6.value
-//       }
-//     }
-//     else if(i == 6){
-//       if(q8o7.checked == true){
-//         q8 = q8o7.value
-//       }
-//     }
-//     else if(i == 7){
-//       if(q8o8.checked == true){
-//         q8 = q8o8.value
-//       }
-//     }
-//     else if(i == 8){
-//       if(q8o9.checked == true){
-//         q8 = q8o9.value
-//       }
-//     }
-//     else if(i == 9){
-//       if(q8o10.checked == true){
-//         q8 = q8o10.value
-//       }
-//     }
-//     else if(i == 10){
-//       if(q8o11.checked == true){
-//         q8 = q8o11.value
-//       }
-//     }
-//   }
-//   console.log("Q8: ", q8)
-// }
-// function getValuesQ9(){
-//   q9o1 = document.getElementById("q9o1")
-//   q9o2 = document.getElementById("q9o2")
-//   q9o3 = document.getElementById("q9o3")
-//   q9o4 = document.getElementById("q9o4")
-//   for(i = 0; i<=3; i++){
-//     if(i == 0){
-//       if(q9o1.checked == true){
-//         q9 = q9o1.value
-//       }
-//     }
-//     else if(i == 1){
-//       if(q9o2.checked == true){
-//         q9 = q9o2.value
-//       }
-//     }
-//     else if(i == 2){
-//       if(q9o3.checked == true){
-//         q9 = q9o3.value
-//       }
-//     }
-//     else if(i == 3){
-//       if(q9o4.checked == true){
-//         q9 = q9o4.value
-//       }
-//     }
-//   }
-//   console.log("Q9: ", q9)
-// }
-// function getValuesQ10(){
-//   q10o1 = document.getElementById("q10o1")
-//   q10o2 = document.getElementById("q10o2")
-//   q10o3 = document.getElementById("q10o3")
-//   q10o4 = document.getElementById("q10o4")
-//   q10o5 = document.getElementById("q10o5")
-//   q10o6 = document.getElementById("q10o6")
-//   q10o7 = document.getElementById("q10o7")
-//   for(i = 0; i<=6; i++){
-//     if(i == 0){
-//       if(q10o1.checked == true){
-//         q10 = q10o1.value
-//       }
-//     }
-//     else if(i == 1){
-//       if(q10o2.checked == true){
-//         q10 = q10o2.value
-//       }
-//     }
-//     else if(i == 2){
-//       if(q10o3.checked == true){
-//         q10 = q10o3.value
-//       }
-//     }
-//     else if(i == 3){
-//       if(q10o4.checked == true){
-//         q10 = q10o4.value
-//       }
-//     }
-//     else if(i == 4){
-//       if(q10o5.checked == true){
-//         q10 = q10o5.value
-//       }
-//     }
-//     else if(i == 5){
-//       if(q10o6.checked == true){
-//         q10 = q10o6.value
-//       }
-//     }
-//     else if(i == 6){
-//       if(q10o7.checked == true){
-//         q10 = q10o7.value
-//       }
-//     }
-//   }
-//   console.log("Q10: ", q10)
-// }
 function disableOptionsQ11(option){
   if(option.checked == true){
     document.getElementById("q11o1").disabled = true
@@ -495,43 +53,6 @@ function disableOptionsQ11(option){
     document.getElementById("q11o4").disabled = false
   }
 }
-// function getValuesQ11(){
-//   q11o1 = document.getElementById("q11o1")
-//   q11o2 = document.getElementById("q11o2")
-//   q11o3 = document.getElementById("q11o3")
-//   q11o4 = document.getElementById("q11o4")
-//   q11o5 = document.getElementById("q11o5")
-//   let arrayQ11 =[]
-//   for(let i = 0; i<=4; i++){
-//     if(i == 0){
-//       if(q11o1.checked == true){
-//         arrayQ11.push(q11o1.value)
-//       }
-//     }
-//     else if(i == 1){
-//       if(q11o2.checked == true){
-//         arrayQ11.push(q11o2.value)
-//       }
-//     }
-//     else if(i == 2){
-//       if(q11o3.checked == true && i == 2){
-//         arrayQ11.push(q11o3.value)
-//       }
-//     }
-//     else if(i == 3){
-//       if(q11o4.value !== "" && i == 3){
-//         arrayQ11.push(q11o4.value)
-//       }
-//     }
-//     else if(i == 4){
-//       if(q11o5.checked == true && i == 4){
-//         arrayQ11 = ["notuveventas"]
-//       }
-//     }
-//   }
-//   q11 = arrayQ11.toString()
-//   console.log("Q11: ",q11)
-// }
 function disableInputNumberQuestion12(option){
   if(option.checked == true){
     document.getElementById("q12o1").disabled = true
@@ -541,17 +62,6 @@ function disableInputNumberQuestion12(option){
     document.getElementById("q12o1").disabled = false
   }
 }
-// function getValuesQ12(){
-//   q12o1 = document.getElementById("q12o1")
-//   q12o2 = document.getElementById("q12o2")
-//   if(q12o2.checked == true){
-//     q12 = q12o2.value
-//   }
-//   else if(q12o2.checked == false){
-//     q12 = q12o1.value
-//   }
-//   console.log("Q12: ",q12)
-// }
 function disableInputNumberQuestion13(option){
   if(option.checked == true){
     document.getElementById("q13o1").disabled = true
@@ -561,17 +71,6 @@ function disableInputNumberQuestion13(option){
     document.getElementById("q13o1").disabled = false
   }
 }
-// function getValuesQ13(){
-//   q13o1 = document.getElementById("q13o1")
-//   q13o2 = document.getElementById("q13o2")
-//   if(q13o2.checked == true){
-//     q13 = q13o2.value
-//   }
-//   else if(q13o2.checked == false){
-//     q13 = q13o1.value
-//   }
-//   console.log("Q13: ",q13)
-// }
 function disableInputNumberQuestion14(option){
   if(option.checked == true){
     document.getElementById("q14o1").disabled = true
@@ -581,17 +80,6 @@ function disableInputNumberQuestion14(option){
     document.getElementById("q14o1").disabled = false
   }
 }
-// function getValuesQ14(){
-//   q14o1 = document.getElementById("q14o1")
-//   q14o2 = document.getElementById("q14o2")
-//   if(q14o2.checked == true){
-//     q14 = q14o2.value
-//   }
-//   else if(q14o2.checked == false){
-//     q14 = q14o1.value
-//   }
-//   console.log("Q14: ",q14)
-// }
 function disableOptionsQ15(option){
   if(option.checked == true){
     document.getElementById("q15o1").disabled = true
@@ -610,109 +98,6 @@ function disableOptionsQ15(option){
     document.getElementById("q15o4").disabled = false
   }
 }
-// function escribirUso(inputObject) {
-//   if(inputObject.id == "q15o4" && inputObject.checked == true){
-//     Swal.fire({
-//       title: "Los compradores en su mayoría",
-//       html: '<input id="swal-input1" class="swal2-input" placeholder="Escribe el uso del espacio"></input>',
-//       preConfirm: () => {
-//         uso = document.getElementById("swal-input1").value;
-//         if(uso == ""){
-//           escribirUso(inputObject)
-//         }
-//         else if(uso != ""){
-//           if(inputObject.id == "q15o4"){
-//             // document.getElementById("insertUse").innerHTML = "";
-//             document.getElementById("q15o4").value = uso;
-//             document.getElementById(
-//               "insertUse"
-//             ).innerHTML = `<h6 id="h6Uso">${uso}</h6>`;
-//             inputObject.value = uso
-//           }
-//         }
-//       },
-//     });
-//   }
-//   else if(inputObject.id !== "q15o4"){
-//     document.getElementById("insertUse").innerHTML = ""
-//   }
-// }
-// function getValuesQ15(){
-//   q15o1 = document.getElementById("q15o1")
-//   q15o2 = document.getElementById("q15o2")
-//   q15o3 = document.getElementById("q15o3")
-//   q15o4 = document.getElementById("q15o4")
-//   q15o5 = document.getElementById("q15o5")
-//   for(i = 0; i<=4; i++){
-//     if(i == 0){
-//       if(q15o1.checked == true){
-//         q15 = q15o1.value
-//       }
-//     }
-//     else if(i == 1){
-//       if(q15o2.checked == true){
-//         q15 = q15o2.value
-//       }
-//     }
-//     else if(i == 2){
-//       if(q15o3.checked == true){
-//         q15 = q15o3.value
-//       }
-//     }    
-//     else if(i == 3){
-//       if(q15o4.checked == true){
-//         q15 = q15o4.value
-//       }
-//     }    
-//     else if(i == 4){
-//       if(q15o5.checked == true){
-//         q15 = q15o5.value
-//       }
-//     }
-//   }
-//   console.log("Q15: ",q15)
-// }
-// function getValuesQ16(){
-//   q16o1 = document.getElementById("q16o1")
-//   q16o2 = document.getElementById("q16o2")
-//   q16o3 = document.getElementById("q16o3")
-//   q16o4 = document.getElementById("q16o4")
-//   q16o5 = document.getElementById("q16o5")
-//   for(i = 0; i<=4; i++){
-//     if(i == 0){
-//       if(q16o1.checked == true){
-//         q16 = q16o1.value
-//       }
-//     }
-//     else if(i == 1){
-//       if(q16o2.checked == true){
-//         q16 = q16o2.value
-//       }
-//     }
-//     else if(i == 2){
-//       if(q16o3.checked == true){
-//         q16 = q16o3.value
-//       }
-//     }
-//     else if(i == 3){
-//       if(q16o4.checked == true){
-//         q16 = q16o4.value
-//       }
-//     }
-//     else if(i == 4){
-//       if(q16o5.checked == true){
-//         q16 = q16o5.value
-//       }
-//     }
-//   }
-//   console.log("Q16: ",q16)
-// }
-// function getValuesQ17(){
-//   q17o1 = document.getElementById("q17o1")
-//   q17 = q17o1.value
-//   console.log("Q17: ", q17)
-// }
-
 function getValues(){
   prePersonalInformation = Array.from(document.getElementsByName("personalInformation"))
   for(i = 0; i <= prePersonalInformation.length - 1; i++){
@@ -821,19 +206,6 @@ function getValues(){
       responses.push(preQ14[i].value)
     }
   }
-  // preQ15 = Array.from(document.getElementsByName("q15"))
-  // for(i = 0; i <= preQ15.length - 1; i++){
-  //   if(preQ15[i].type == "radio"){
-  //     if(preQ15[i].checked == true){
-  //       responses.push(preQ15[i].value)
-  //     }
-  //   }
-  //   else if(preQ15[i].type == "checkbox"){
-  //     if(preQ15[i].checked == true){
-  //       responses.push(preQ15[i].value)
-  //     }
-  //   }
-  // }
   preQ15 = Array.from(document.getElementsByName("q15"))
   for(i = 0; i <= preQ15.length - 1; i++){
     if(preQ15[i].checked == true || preQ15[i].type == "text"){
@@ -853,10 +225,16 @@ function getValues(){
       responses.push(preQ17[i].value)
     }
   }
+  preQ18 = Array.from(document.getElementsByName("q18"))
+  for(i = 0; i <= preQ18.length - 1; i++){
+    if(preQ18[i].checked == true){
+      responses.push(preQ18[i].value)
+    }
+  }
+  responses.push(document.getElementById("q19response").value)
   console.log(responses)
   validateInformation(responses)
 }
-
 function validateInformation(array) {
   // Error
   if(array.length < 21){
@@ -879,7 +257,7 @@ function validateInformation(array) {
     q15 = []
     responses = []
   }
-  else if(array.length == 21){
+  else if(array.length == 23){
     Swal.showLoading();
     sendData(array)
   }
@@ -906,7 +284,9 @@ function sendData(array) {
       q14: `${array[17]}`,
       q15: `${array[18]}`,
       q16: `${array[19]}`,
-      q17: `${array[20]}`
+      q17: `${array[20]}`,
+      q18: `${array[21]}`,
+      q19: `${array[22]}`,
     });
     // sheet.best
     var config = {
@@ -918,18 +298,6 @@ function sendData(array) {
       },
       data: data,
     };
-    // restdb.io
-    // var config = {
-    //   method: "post",
-    //   url: "https://responses-5389.restdb.io/rest/responses",
-    //   // mode: "cors",
-    //   headers: {
-    //     "x-apikey": "63ea9066478852088da681dd",
-    //     "Content-Type": "application/json",
-    //   },
-    //   data: data,
-    // };
-  
     axios(config)
       .then((res) => {
         q11 = []
@@ -949,17 +317,6 @@ function sendData(array) {
         divToInsertHTMLTags.insertAdjacentElement("beforeend", notification);
       })
       .catch(async(err) => {
-        console.log(err)
-        // const { value: accept} =
-        // await Swal.fire({
-        //   icon: "error",
-        //   title: "¡Algo salió mal!",
-        //   text: "Recuerda que tu nombre es obligatorio",
-        //   confirmButtonColor: "#3085d6",
-        // })
-        // if(accept){
-        //   location.reload()
-        // };
         Swal.fire({
           icon: "error",
           confirmButtonColor: "#3085d6"
